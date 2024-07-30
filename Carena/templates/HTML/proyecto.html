@@ -3,14 +3,14 @@
 {% block content %}
     <div id="contenido" class="container">
         <div class="row">
-            <div class="d-none d-lg-block col-lg-2 p-3" style="background-color: lightblue">
+            <div class="d-none d-lg-block col-lg-2 p-3" style="background-color: lightgreen">
                 {% for s in secciones %}
                     <p><a class="text-decoration-none text-dark" href="{{ s.link }}/{{ s.id }}">{{ s.titulo }}</a></p>
                 {%  endfor %}
             </div>
             <div class="col-md-5">
-                <h5 class="bg-primary"><a class="text-white text-decoration-none" href="{{ proyecto.link }}/{{ proyecto.id }}">{{ proyecto.nombre }}</a></h5>
-                <h3 class="text-primary pb-2">{{ proyecto.titulo }}</h3>
+                <h5 class="bg-success"><a class="text-white text-decoration-none" href="{{ proyecto.link }}/{{ proyecto.id }}">{{ proyecto.nombre }}</a></h5>
+                <h3 class=".text-white pb-2">{{ proyecto.titulo }}</h3>
                 {{ proyecto.descripcion|safe }}
             </div>
             <div class="col-md-5" id="imagen"
