@@ -1,6 +1,7 @@
 # Entorno virtual
 venv/
-env/
+pyvenv.cfg
+
 
 # Archivos de configuración locales
 .env
