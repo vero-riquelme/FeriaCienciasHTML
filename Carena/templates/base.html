@@ -1,3 +1,4 @@
+
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -12,11 +13,12 @@
 </head>
 <body>
     <div class="d-flex flex-column min-vh-100">
-        <header class="container-fluid bg-success text-white-50 text-center p-10" style="padding: 2rem;">
-            <h4>Feria de Ciencias</h4>
+        <header class="container-fluid bg-success text-white text-center p-20" style="padding: 2rem;">
+            <h3>Feria de Ciencias</h3>
+            <h6>Estudiantes de 3° año</h6>
         </header>
 
-        <nav class="navbar navbar-expand-sm bg-success navbar-success sticky-top mb-4">
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top mb-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index">Feria</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -38,7 +40,7 @@
             {% block content %}
             {% endblock %}
         </main>
-        <footer class="container-fluid bg-success  text-center p-3 text-white-50 mt-4">
+        <footer class="container-fluid bg-success  text-center p-3 text-white mt-4">
             <h6>Instituto Superior Dr. Carlos María Carena | 2024 | Tecnicatura Superior en Desarrollo de Software </h6>
         </footer>
     </div>
