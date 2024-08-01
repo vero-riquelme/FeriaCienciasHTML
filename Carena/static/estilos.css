@@ -21,8 +21,12 @@ ul.lista-flechas li::before {
     content: '\27BD'; /* Código Unicode para la flecha hacia la derecha */
     position: absolute;
     left: 0;
+<<<<<<< HEAD
     color :  rgb ( 71 , 112 , 5 ); /* Color de la flecha */
     background-color: #f8f9fa; /* Fondo claro para mayor contraste */
+=======
+    color: rgb(71, 112, 5); /* Color de la flecha */
+>>>>>>> cc3a26db30ee3be84e55d842f53b3a8ad710962b
 }
 
 .navbar {
